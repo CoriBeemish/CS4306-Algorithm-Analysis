@@ -24,7 +24,6 @@ A simple sorting algorithm that sorts an array one item at a time. Best for smal
  ```
 
 ![InsertSort](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
-
 ```C++
      *3* 7 4 9 5 2 6 1
       3 *7* 4 9 5 2 6 1
