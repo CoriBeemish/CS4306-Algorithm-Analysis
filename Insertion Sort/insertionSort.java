@@ -29,7 +29,7 @@ public class insertionSort {
     }
     public static void main(String args[])
     {
-        int array[] = {903, 90, 60, 80, 20, 42, 55, 5, 10, 8, 0, -6};
+        int array[] = {3, 7, 4, 9, 5, 2, 6, 1};
         insertionSort temp = new insertionSort();
         temp.sort(array);
         printArray(array);
