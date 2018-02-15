@@ -11,4 +11,15 @@ A simple sorting algorithm that sorts an array one item at a time. Best for smal
 3. If it is larger, then we move on.
 4. If it not larger than the largest element in the array, then we move it to the appropriate place in the sorted array.
 
+**Pseudocode**
+i ← 1
+while i < length(A)
+    j ← i
+    while j > 0 and A[j-1] > A[j]
+        swap A[j] and A[j-1]
+        j ← j - 1
+    end while
+    i ← i + 1
+end while
+
 ![InsertSort](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
