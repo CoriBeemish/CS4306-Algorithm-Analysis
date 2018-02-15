@@ -24,3 +24,13 @@ A simple sorting algorithm that sorts an array one item at a time. Best for smal
  ```
 
 ![InsertSort](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+
+```    *3* 7 4 9 5 2 6 1
+    3 7 4 9 5 2 6 1
+    3 7 4 9 5 2 6 1
+    3 4 7 9 5 2 6 1
+    3 4 7 9 5 2 6 1
+    3 4 5 7 9 2 6 1
+    2 3 4 5 7 9 6 1
+    2 3 4 5 6 7 9 1
+    1 2 3 4 5 6 7 9```
